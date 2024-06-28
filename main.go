@@ -13,6 +13,8 @@ import (
 	"github.com/fatih/color"
 )
 
+// TO DO : add feels like to the output
+
 type Weather struct {
 	Location struct {
 		Name           string `json:"name"`
